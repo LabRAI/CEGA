@@ -20,11 +20,7 @@ bash run_bash.sh
 
 The outputs of the experiment are recorded in a timestamped directory under `./output/`. 
 ```
-./output/
-    âââ {timestamp}/
-        âââ {dataset}/
-        âââ log/{dataset}/
-        âââ settings.txt
+./output/{timestamp}/{dataset}/log/{dataset}/settings.txt
 ```
 
 ## **Visualize Results**
